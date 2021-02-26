@@ -1,0 +1,1186 @@
+*{
+    margin: 0px;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(Imagens/fundo1.jpg);
+}
+/*Topo*/
+#topo{
+    position: relative;
+    width:1280px;
+    height: 250px;
+    margin: 10px auto;
+    background-color: aliceblue;
+    opacity: 0.90; 
+    border:5px solid black ;
+    border-radius: 8px;
+    margin-left: 140px;
+}
+#logodaempresa{
+    position: relative;
+    width: 300px;
+    height: 220px;
+    font-size: 18px;
+    color:#000000;
+    text-align: center;
+    line-height: 26px;
+    margin-top: -15px;
+    float:left;
+    font-family: coursive;
+}
+#Twitter{
+    position: relative;
+    width: 50px;
+    height:50px;
+    font-size: 18px;
+    color:#000000;
+    text-align: justify;
+    line-height:26px;
+    margin-top: 50px;
+    float:left;
+    font-family: sans-serif;
+    margin-right: 13px;
+
+}
+#Youtube{
+    position: relative;
+    width: 50px;
+    height:50px;
+    font-size: 18px;
+    color:#000000;
+    text-align: justify;
+    line-height:26px;
+    margin-top: 50px;
+    float:left;
+    font-family: sans-serif;
+    margin-right: 13px;
+
+}
+#Instagram{
+    position: relative;
+    width: 50px;
+    height:50px;
+    font-size: 18px;
+    color:#000000;
+    text-align: justify;
+    line-height:26px;
+    margin-top: 50px;
+    float:left;
+    font-family: sans-serif;
+    margin-right: 13px;
+
+}
+#Slogan{
+    position: relative;
+    width:500px;
+    height: 150px;
+    font-size: 37px;
+    color: #0190BC;
+    text-align:center;
+    float: left;
+    font-family: cursive;
+    margin-top: 50px;   
+    text-shadow: 2px 2px 2px #8e9295;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#LoginTopo{
+    position: relative;
+    width:200px;
+    height: 38px;
+    float: left;
+    margin-top: 20px;
+}
+#ladoDireitoTopo{
+    position: relative;
+    width:250px;
+    height: 250px;
+    float: right;
+
+}
+#menuDireitaLucas{
+    position: relative;
+    width: 200px;
+    display: table;
+    opacity: 0.90; 
+    border:5px solid black ;
+    float: left;
+    margin-top: 27px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+#menuDireitaLucas ul{
+    list-style: none;
+}
+#menuDireitaLucas ul li{
+    display: table;  
+}
+#menuDireitaLucas ul li a{
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: 80px;
+}
+#menuDireitaLucas ul li a:hover{
+    color: #000000;
+    font-family: fantasy;
+}
+#meio{
+    position: relative;
+    width: 1280px;
+    height: 450px;
+    margin: auto;
+}
+
+#menuEsquerdaLucas{
+    position: relative;
+    width: 200px;
+    display: table;
+    margin-left: 10px;
+    float: left;
+    opacity: 0.90; 
+    border:5px solid black ;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-top: 27px;
+}
+#menuEsquerdaLucas ul{
+    list-style: none;
+}
+#menuEsquerdaLucas ul li{
+    display: table;  
+}
+#menuEsquerdaLucas ul li a{
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: 80px;
+}
+#menuEsquerdaLucas ul li a:hover{
+    color: #000000;
+    font-family: fantasy;
+}
+#rodape{
+    position: relative;
+    width: 1280px;
+    height: 150px;
+    background-color:  aliceblue;
+    opacity: 0.90;
+    clear: both;
+    border-color: black;
+    border-radius: 8px;
+    margin: auto;
+    border:5px solid black ;
+    margin-top: 10px;
+}
+#textoRodape{
+    position: relative;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-family: initial; 
+    height: 80px;
+    margin:20px auto;
+
+}
+#menuRodape{
+    position: relative;
+    display: table;   
+    margin: auto;
+}
+#menuRodape ul{
+    list-style: none;
+}
+#menuRodape ul li{
+    display: inline;  
+}
+#menuRodape ul li a{
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#menuRodape ul li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+#slider{
+    position: relative;
+    width: 700px;
+    height: 450px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+#textoLucas{
+    font-size: 20px;
+    color:#ffffff ;
+    position: relative;
+    width: 1100px;
+    display: table;
+    margin: 10px ;
+    background-color: aliceblue;
+    opacity: 0.90;
+    border-radius: 8px;
+    border: 4px solid black;
+    line-height: 30px;
+    text-indent: 30px;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 10px;
+    color: black;
+}
+
+#FotosLucas{
+    font-size: 20px;
+    color:#ffffff ;
+    position: relative;
+    width: 1100px;
+    display: table;
+    margin: 10px ;
+    background-color: aliceblue;
+    opacity: 0.90;
+    border-radius: 8px;
+    border: 4px solid black;
+    line-height: 30px;
+    text-indent: 30px;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 10px;
+    color: black;
+}
+#foto1{
+    position: relative;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    float: left ;
+    width: 400px;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#foto2{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px;
+    float: left ;
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+#TxtImg{
+    font-size: 20px;
+    color:#ffffff ;
+    position: relative;
+    width: 972px;
+    display: table;
+    margin: 10px ;
+    line-height: 30px;
+    text-indent: 30px;
+    text-align: justify;
+    margin: 10px auto;
+    color: black;
+}
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.eot');
+    src: url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.woff') format('woff'), url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.ttf') format('truetype'), url('http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont#WebSymbolsRegular') format('svg');
+}
+
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+h1 { color: white }
+
+#slideshow-wrap {
+    display: block;
+    height: 320px;
+    min-width: 260px;
+    max-width: 640px;
+    float: left;
+    border: 12px rgba(255,255,240,1) solid;
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    margin-top: 20px;
+    position: relative;
+}
+
+#slideshow-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    overflow: hidden;
+    position: relative;
+}
+
+#slideshow-inner>ul {
+    list-style: none;
+    height: 100%;
+    width: 500%;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    -webkit-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#slideshow-inner>ul>li {
+    width: 20%;
+    height: 320px;
+    float: left;
+    position: relative;
+}
+
+#slideshow-inner>ul>li>img {
+    margin: auto;
+    height: 100%;
+}
+
+#slideshow-wrap input[type=radio] {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    z-index: 100;
+    visibility: hidden;
+}
+
+#slideshow-wrap label:not(.arrows):not(.show-description-label) {
+    position: absolute;
+    left: 50%;
+    bottom: -45px;
+    z-index: 100;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(200,200,200,1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 3px rgba(0,0,0,.8);
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+}
+
+#slideshow-wrap label:not(.arrows):active { bottom: -46px }
+
+#slideshow-wrap input[type=radio]#button-1:checked~label[for=button-1] { background-color: rgba(100,100,100,1) }
+
+#slideshow-wrap input[type=radio]#button-2:checked~label[for=button-2] { background-color: rgba(100,100,100,1) }
+
+#slideshow-wrap input[type=radio]#button-3:checked~label[for=button-3] { background-color: rgba(100,100,100,1) }
+
+#slideshow-wrap input[type=radio]#button-4:checked~label[for=button-4] { background-color: rgba(100,100,100,1) }
+
+#slideshow-wrap input[type=radio]#button-5:checked~label[for=button-5] { background-color: rgba(100,100,100,1) }
+
+#slideshow-wrap label[for=button-1] { margin-left: -36px }
+
+#slideshow-wrap label[for=button-2] { margin-left: -18px }
+
+#slideshow-wrap label[for=button-4] { margin-left: 18px }
+
+#slideshow-wrap label[for=button-5] { margin-left: 36px }
+
+#slideshow-wrap input[type=radio]#button-1:checked~#slideshow-inner>ul { left: 0 }
+
+#slideshow-wrap input[type=radio]#button-2:checked~#slideshow-inner>ul { left: -100% }
+
+#slideshow-wrap input[type=radio]#button-3:checked~#slideshow-inner>ul { left: -200% }
+
+#slideshow-wrap input[type=radio]#button-4:checked~#slideshow-inner>ul { left: -300% }
+
+#slideshow-wrap input[type=radio]#button-5:checked~#slideshow-inner>ul { left: -400% }
+
+label.arrows {
+    font-family: 'WebSymbolsRegular';
+    font-size: 25px;
+    color: rgb(255,255,240);
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: none;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: transparent;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+    text-shadow: 0px 0px 3px rgba(0,0,0,.8);
+}
+
+label.arrows:hover { opacity: 1 }
+
+label.arrows:active { margin-top: -23px }
+
+input[type=radio]#button-1:checked~.arrows#arrow-2, input[type=radio]#button-2:checked~.arrows#arrow-3, input[type=radio]#button-3:checked~.arrows#arrow-4, input[type=radio]#button-4:checked~.arrows#arrow-5 {
+    right: -55px;
+    display: block;
+}
+
+input[type=radio]#button-2:checked~.arrows#arrow-1, input[type=radio]#button-3:checked~.arrows#arrow-2, input[type=radio]#button-4:checked~.arrows#arrow-3, input[type=radio]#button-5:checked~.arrows#arrow-4 {
+    left: -55px;
+    display: block;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+input[type=radio]#button-2:checked~.arrows#arrow-1 { left: -19px }
+
+input[type=radio]#button-3:checked~.arrows#arrow-2 { left: -37px }
+
+input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
+
+.description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    font-family: 'Yanone Kaffeesatz';
+    z-index: 1000;
+}
+
+.description input { visibility: hidden }
+
+.description label {
+    font-family: 'WebSymbolsRegular';
+    background-color: rgba(255,255,240,1);
+    position: relative;
+    left: -17px;
+    top: 00px;
+    width: 40px;
+    height: 27px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 7px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+    z-index: 5;
+    color: rgb(20,20,20);
+}
+
+#slideshow-inner>ul>li:hover .description label { opacity: 1 }
+
+.description input[type=checkbox]:checked~label { opacity: 1 }
+
+.description .description-text {
+    background-color: rgba(255,255,230,.5);
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    top: -35px;
+    z-index: 4;
+    opacity: 0;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+    color: rgb(20,20,20);
+}
+
+.description input[type=checkbox]:checked~.description-text { opacity: 1 }
+
+/* Rodrigo Bock */
+
+/* Contato */
+#Contato{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+/* Perguntas Frequentes (FAQ)*/
+
+#accordion{
+    font-family: 'Roboto', sans-serif;
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 10px;  
+}
+
+/* Quem Somos */
+
+#NossaHistoria{
+    font-family: 'Roboto', sans-serif;
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: aliceblue; 
+    opacity: 0.9;
+    border-radius: 8px;
+    border: 4px solid black;
+    padding: 10px;
+}
+/* Cadastro */
+#cadastrar{
+    position: relative;   
+    font-weight: bold; 
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue; 
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+/* Login */
+
+#login{
+    position: relative;    
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue; 
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 4px solid black;
+}
+
+#efetuarlogin input{
+    position: relative;
+    background-image:url(Imagens/login.png);
+    width: 237px;
+    height: 33px;
+}
+
+/* Botão de enviar mensagem */
+
+#enviarmensagem input{
+    position: relative;
+    width: 230px;
+    height: 45px;
+    font-size: 22px;
+}
+
+/* Trabalhe Conosco */
+
+#trabalheConosco{
+    font-family: 'Roboto', sans-serif;
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Larissa */
+
+
+/*Topo*/
+#topo{
+    position: relative;
+    width:1280px;
+    height: 210px;
+    margin: 10px auto;
+    background-color: aliceblue;
+    opacity: 0.90; 
+    border:5px solid black ;
+    border-radius: 8px;
+}
+#compBasico {
+    position: relative;
+    width:385px;
+    height: 385px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#tituloBasic {
+    position: relative;
+    width:800px;
+    height: 40px;
+    color: black;
+    margin:10px;
+    text-align: justify;
+    font-size: 30px;
+    font-family: serif;
+    float: left;
+}
+#tituloBasic p {
+    position: relative;
+    width:700px;
+    height: 54px;
+    margin: 1px;
+    margin-left: 60px;
+    text-align: justify;
+}
+#textBasic {
+    position: relative;
+    width:350px;
+    height: 30px;
+    color: black;
+    margin:1px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+#basico {
+    position: relative;
+    width:350px;
+    height: 302px;
+    margin: 10px;
+    border: 5px solid black;
+    float:left;
+}
+#ImagemComprar{
+    position: relative;
+    width:350px;
+    height: 308px;
+    margin: 10px;
+    border: 5px solid black;
+    float: left;
+    margin-top: 110px;
+}
+#ImagemComprar p{
+    position: relative;
+    width:200px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 25px;
+    float: right;
+}
+#comprar {
+    position: relative;
+    width:32px;
+    height: 32px;
+    margin: 10px;
+    float:left;
+}
+#configBasico {
+    position: relative;
+    width:800px;
+    height: 600px;
+    margin: 5px ;
+    margin-top: 40px;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    line-height: 20px;
+}
+#meioComprar{
+    position: relative;
+    width: 1280px;
+    height: 710px;
+    opacity: 0.90; 
+    border:5px solid black ;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: auto;
+}
+#compInterm{
+    position: relative;
+    width:365px;
+    height: 385px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#tituloInterm {
+    position: relative;
+    width:870px;
+    height: 40px;
+    color: black;
+    margin:10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 30px;
+    font-family: serif;
+    float: left;
+}
+#tituloInterm p {
+    position: relative;
+    width:700px;
+    height: 54px;
+    margin: 1px;
+    margin-left: 60px;
+    text-align: justify;
+}
+#configInterm {
+    position: relative;
+    width:880px;
+    height: 580px;
+    margin: 5px ;
+    margin-top: 40px;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    line-height: 20px;
+
+}
+#textInterm {
+    position: relative;
+    width:340px;
+    height: 27px;
+    margin: 5px ;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+#intermediario {
+    position: relative;
+    width:329px;
+    height: 307px;
+    margin: 10px;
+    border: 5px solid black;
+    float: left;
+}
+#meioIntermediaria{
+    position: relative;
+    width: 1280px;
+    height: 700px;
+    opacity: 0.90; 
+    border:5px solid black ;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: auto;   
+}
+#compAvan {
+    position: relative;
+    width:380px;
+    height: 385px;
+    float: left;
+    margin-top: 20px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+#tituloAvan {
+    position: relative;
+    width:900px;
+    height: 54px;
+    margin: 1px;
+    margin-left: 60px;
+    text-align: justify;
+}
+#tituloAvan p {
+    position: relative;
+    width:900px;
+    height: 54px;
+    margin: 1px;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 30px;
+}
+#textAvan {
+    position: relative;
+    width:320px;
+    height: 27px;
+    margin: 5px ;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+#avancado {
+    position: relative;
+    width:344px;
+    height: 299px;
+    margin: 10px;
+    border: 5px solid black;
+    float: left;
+}
+#configAvan {
+    position: relative;
+    width:880px;
+    height: 580px;
+    margin: 5px ;
+    margin-top: 40px;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    line-height: 20px;
+}
+#MeioAvancado{
+    position: relative;
+    width: 1280px;
+    height: 710px;
+    opacity: 0.90; 
+    border:5px solid black ;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: auto;
+}
+#Config {
+    position: relative;
+    width:750px;
+    height: 100px;
+    margin: 5px ;
+    margin-left: 200px;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+#Config p {
+    position: relative;
+    width:700px;
+    height: 54px;
+    margin: 1px;
+    margin-left: 60px;
+    text-align: justify;
+}
+#cadastrarProduto{
+    position: relative;   
+    font-weight: bold; 
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 10px;
+}
+#CadastroCliente{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black; 
+    padding: 10px;
+}
+#cadastarFuncionario{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black; 
+    padding: 10px;
+}
+#escolha{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black; 
+    padding: 10px;
+}
+#escolha ul{
+    list-style: none;
+}
+#escolha ul li{
+    display: inline;  
+}
+#escolha ul li a{
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#escolha ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+#produtos{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black; 
+    padding: 10px;   
+}
+#editarFuncionario{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black; 
+    padding: 10px; 
+}
+#editarCliente{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px;
+    border: 4px solid black; 
+    padding: 10px;
+}
+#compra{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px; 
+    padding: 10px;
+}
+#comprimentos{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px; 
+    padding: 10px;
+
+}
+#logoff{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px; 
+    padding: 10px;
+}
+#logoff ul{
+    list-style: none;
+}
+#logoff ul li{
+    display: inline;  
+}
+#logoff ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#logoff ul li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+#editarDados{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px; 
+    padding: 10px;
+}
+#editarDados ul{
+    list-style: none;
+}
+#editarDados ul li{
+    display: inline;  
+}
+#editarDados ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#editarDados ul li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+#menuFuncionario{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px; 
+    padding: 10px; 
+}
+#menuFuncionario ul{
+    list-style: none;
+}
+#menuFuncionario ul li{
+    display: inline;  
+}
+#menuFuncionario ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#menuFuncionario ul li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+#meioCadastroFAQ{
+    position: relative; 
+    clear: both;   
+    font-weight: bold; 
+    width: 1260px;
+    height: 170px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;  
+    opacity: 0.9;
+    border-radius: 10px; 
+    padding: 10px;
+}
